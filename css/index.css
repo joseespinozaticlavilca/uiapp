@@ -1,1 +1,37 @@
 
+body {
+    background-image: linear-gradient(rgba(124, 143, 228, 0.7), rgba(243, 243, 243, 0.7)), url("/img/torre2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    margin: 0;
+    
+
+}
+
+
+.title {
+    padding: 2rem 0;
+    text-align: center;
+    justify-content: center;
+    color: rgb(30, 9, 82);
+    text-shadow: 1px 0 #6d4f4f;
+
+}
+
+.options {
+    justify-content: center;
+    display: grid;
+
+    padding: 3rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bordesolido{
+    border-color: #aaaaaa;
+    border-width: 1px;
+    border-style: solid;
+ }
+
