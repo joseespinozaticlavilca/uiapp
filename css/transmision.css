@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-image: linear-gradient(
+      rgba(124, 143, 228, 0.7),
+      rgba(243, 243, 243, 0.7)
+    ),
+    url("/img/torre2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.title {
+  padding: 2rem 0;
+  text-align: center;
+  justify-content: center;
+  color: rgb(30, 9, 82);
+  text-shadow: 1px 0 #6d4f4f;
+}
+
+.centrar {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-guardar {
+  margin-top: 1rem;
+}
+
+.icon-atras {
+  height: 5rem;
+}
